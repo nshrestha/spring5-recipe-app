@@ -11,10 +11,13 @@
     <groupId>guru.springframework</groupId>
     <artifactId>spring5-recipe-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
     <name>spring5-recipe-app</name>
     <description>Recipe Application</description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
@@ -45,7 +48,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -95,6 +97,4 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
-
 </project>
